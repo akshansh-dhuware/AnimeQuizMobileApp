@@ -35,3 +35,24 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+# Files/folders to ignore (do NOT upload these)
+node_modules/
+android/build/
+android/app/build/
+android/app/*.apk
+android/app/*.aab
+android/*.apk
+android/*.aab
+*.jks                      # <-- VERY IMPORTANT: Your app signing key file!
+*.keystore                 # <-- Another name for keystore files!
+android/key.properties     # <-- Might contain passwords for your key!
+.env
+.env.*
+local.properties
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+Thumbs.db
