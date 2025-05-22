@@ -17,4 +17,4 @@ To set up the development environment and contribute:
 This is an ongoing project. Version 1.0 contains basic functionality with some repetitive questions. Future updates will include more unique content and features.
 
 ## License
-*You can choose a license later on GitHub if you wish to make it open source for others to use.*
+*MIT*
